@@ -1,0 +1,21 @@
+{
+  "name": "simplecrudapp",
+  "version": "1.0.0",
+  "description": "- create a folder `simpleCRUDApp`\r - type `npm init -y`\r - open and see `package.json`\r - `mqain` is `index.js`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
